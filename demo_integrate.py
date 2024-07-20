@@ -1,4 +1,4 @@
-from func import get_net,config,pred2coords,img_preprocess,viz
+from utils.func import get_net,config,pred2coords,img_preprocess,viz
 from ultralytics import YOLO
 import torch
 import cv2
